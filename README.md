@@ -1,6 +1,8 @@
-# Meteor Buildpack Horse
+# Meteor Buildpack Horse - MODIFIED
 
 [![Horse](https://i.imgur.com/YhIL9zM.jpg)](https://commons.wikimedia.org/wiki/File:Draw-Costa_Rican-2smallest.jpg)
+
+**Modified to not use mongolab addon, as discussed below, to avoid account verification. you must set the MONGO_URL env**
 
 A heroku buildpack for Meteor v1+, designed to be as simple and readable as possible.
 
